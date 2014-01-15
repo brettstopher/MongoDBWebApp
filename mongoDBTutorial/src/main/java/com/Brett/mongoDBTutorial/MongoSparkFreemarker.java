@@ -39,10 +39,8 @@ public class MongoSparkFreemarker {
 					helloTemplate.process(document, writer);
 
 				} catch (IOException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				} catch (TemplateException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 				return writer;
